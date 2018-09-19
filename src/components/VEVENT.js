@@ -19,6 +19,7 @@ export default class VEVENT extends Component {
     CLASS:             [singleton()],
     CREATED:           [singleton()],
     DESCRIPTION:       [singleton()],
+    'X-ALT-DESC;FMTTYPE=text/html':       [singleton()],
     DTSTART:           [singleton()],
     GEO:               [singleton()],
     'LAST-MOD':        [singleton()],

@@ -18,6 +18,7 @@ export default class VALARM extends Component {
 
     ATTACH:       [singleton()],
     DESCRIPTION:  [singleton()],
+    'X-ALT-DESC;FMTTYPE=text/html':       [singleton()],
     DURATION:     [singleton()],
     REPEAT:       [singleton()],
     SUMMARY:      [singleton()],

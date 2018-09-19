@@ -28,6 +28,7 @@ const eventAlarm = new ICS.VALARM()
 eventAlarm.addProp('ACTION', 'DISPLAY')
 eventAlarm.addProp('TRIGGER', '-PT12H')
 eventAlarm.addProp('DESCRIPTION', 'Event reminder')
+eventAlarm.addProp('X-ALT-DESC;FMTTYPE=text/html', 'Event reminder')
 
 const todo = new ICS.VTODO()
 
@@ -56,6 +57,7 @@ const icsString = 'BEGIN:VCALENDAR\r\n' +
                   'ACTION:DISPLAY\r\n' +
                   'TRIGGER:-PT12H\r\n' +
                   'DESCRIPTION:Event reminder\r\n' +
+                  'X-ALT-DESC;FMTTYPE=text/html:Event reminder\r\n' +
                   'END:VALARM\r\n' +
                   'END:VEVENT\r\n' +
                   'BEGIN:VTODO\r\n' +

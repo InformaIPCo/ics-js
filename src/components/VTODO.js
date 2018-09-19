@@ -20,6 +20,7 @@ export default class VTODO extends Component {
     COMPLETED:         [singleton()],
     CREATED:           [singleton()],
     DESCRIPTION:       [singleton()],
+    'X-ALT-DESC;FMTTYPE=text/html':       [singleton()],
     DTSTART:           [singleton()],
     GEO:               [singleton()],
     'LAST-MOD':        [singleton()],
